@@ -108,20 +108,25 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Alesiong&#39;s Blog">
-<meta property="og:url" content="https://www.alesiong.tk/index.html">
+  <meta name="description" content="Hello, er, not world, it’s you! Welcome to Alesiong’s blog. In this blog, I will mainly post about anything related to computer science, including technical tutorials, code snippets, some ideas and th">
+<meta name="keywords" content="Hexo,Meta-Post,Markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://www.alesiong.tk/2018/05/hello-world/index.html">
 <meta property="og:site_name" content="Alesiong&#39;s Blog">
+<meta property="og:description" content="Hello, er, not world, it’s you! Welcome to Alesiong’s blog. In this blog, I will mainly post about anything related to computer science, including technical tutorials, code snippets, some ideas and th">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-06-13T13:43:19.739Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Alesiong&#39;s Blog">
+<meta name="twitter:title" content="Hello World">
+<meta name="twitter:description" content="Hello, er, not world, it’s you! Welcome to Alesiong’s blog. In this blog, I will mainly post about anything related to computer science, including technical tutorials, code snippets, some ideas and th">
 
 
 
 
 
 
-  <link rel="canonical" href="https://www.alesiong.tk/"/>
+  <link rel="canonical" href="https://www.alesiong.tk/2018/05/hello-world/"/>
 
 
 
@@ -131,7 +136,7 @@
   };
 </script>
 
-  <title>Alesiong's Blog</title>
+  <title>Hello World | Alesiong's Blog</title>
   
 
 
@@ -178,8 +183,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,7 +220,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
   </li>
@@ -260,9 +264,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -294,11 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/hello-world/" itemprop="url">
-                  Hello World
-                </a>
+          <h1 class="post-title" itemprop="name headline">Hello World
               
             
           </h1>
@@ -391,9 +391,7 @@
       
 
       
-        
-          
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Hello, er, not world, it’s you! Welcome to Alesiong’s blog. In this blog, I will mainly post about anything related to computer science, including technical tutorials, code snippets, some ideas and thoughts, and maybe some maths (if I’m feeling good :P).</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Hello, er, not world, it’s you! Welcome to Alesiong’s blog. In this blog, I will mainly post about anything related to computer science, including technical tutorials, code snippets, some ideas and thoughts, and maybe some maths (if I’m feeling good :P).</p>
 <p>This first post is about how did I set up this blog (you can call this post a <em>meta-post</em>). I will guide you to build up from scratch your blog by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> and <a href="https://github.io" target="_blank" rel="noopener">GitHub Pages</a>.</p>
 <h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>My blog is built with Hexo, a easy to use blog framework. As a developer, you may think it cool to build your blog with primitive HTML and CSS; but I think it would be cooler if you use that time to share your broad knowledge. Hexo is just the framework that let you focus on writing and does the tedious things for you. With hexo, the only things you need to know is</p>
 <pre><code>1. Markdown
@@ -462,8 +460,6 @@
 </ol>
 <h3 id="Use-git-to-manage-your-blog"><a href="#Use-git-to-manage-your-blog" class="headerlink" title="Use git to manage your blog"></a>Use git to manage your blog</h3><p>When you generate a new hexo blog, it is also a git repository with proper <code>.gitignore</code> file. So you can just commit your changes and (if you want) push the repo to github or bitbucket or others. Note that if you added a custom theme, it would be better to manage it as a git submodule:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add url-of-theme-repo themes/theme-name</span><br></pre></td></tr></table></figure></p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Linux users: I don’t think you cannot find your terminal :)<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">I don’t add $ before the command, so it is easier to copy.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>
-          
-        
       
     </div>
 
@@ -481,14 +477,24 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/Meta-Post/" rel="tag"># Meta-Post</a>
+          
+            <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -498,14 +504,19 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -526,8 +537,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -602,6 +622,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">1.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown"><span class="nav-number">1.1.</span> <span class="nav-text">Markdown</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Editors"><span class="nav-number">1.1.1.</span> <span class="nav-text">Editors</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Going-on-with-Hexo"><span class="nav-number">1.2.</span> <span class="nav-text">Going on with Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">1.3.</span> <span class="nav-text">Install Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Open-your-blog-and-writing"><span class="nav-number">1.4.</span> <span class="nav-text">Open your blog and writing</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy-with-Github-Pages"><span class="nav-number">2.</span> <span class="nav-text">Deploy (with Github Pages)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Github"><span class="nav-number">2.1.</span> <span class="nav-text">Github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-plugins"><span class="nav-number">2.2.</span> <span class="nav-text">Install plugins</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Edit-config"><span class="nav-number">2.3.</span> <span class="nav-text">Edit config</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ready-to-go"><span class="nav-number">2.4.</span> <span class="nav-text">Ready to go</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Custom-domain"><span class="nav-number">3.</span> <span class="nav-text">Custom domain</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Afterwards"><span class="nav-number">4.</span> <span class="nav-text">Afterwards</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Set-the-url"><span class="nav-number">4.1.</span> <span class="nav-text">Set the url</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Change-the-theme"><span class="nav-number">4.2.</span> <span class="nav-text">Change the theme</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Use-git-to-manage-your-blog"><span class="nav-number">4.3.</span> <span class="nav-text">Use git to manage your blog</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -729,6 +765,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
